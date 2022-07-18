@@ -1,0 +1,56 @@
+.features__section {
+    align-items: center;
+}
+
+.features__container {
+    margin-top: 0px;
+    
+    padding-top: 60px;
+    text-align: center;
+    align-items: center;
+
+    .features__cards {
+        display: flex;
+        justify-content: space-between;
+
+        .card {
+            max-width: 350px;
+        }
+
+        .card__title--text {
+            padding: 20px 0;
+        }
+
+        .card__desc--text {
+            line-height: 1.5;
+            margin-bottom: 40px;
+        }
+    }
+
+    .features__btns {
+        display: flex;
+        justify-content: center;
+
+        .chiziqlar {
+            margin-left: -40px;
+            margin-right: 60px;
+
+            .chiziq-1 {
+                margin-left: -60px;
+            }
+
+        }
+
+        .circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 2px;
+            background-color: $pink;
+            box-shadow: 5px 5px 2px $pink;
+            border: 1px solid $white;
+            margin-left: 70px;
+        }
+
+
+    }
+}

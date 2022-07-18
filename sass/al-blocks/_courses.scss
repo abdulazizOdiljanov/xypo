@@ -1,0 +1,29 @@
+.courses__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;  
+    align-items: center;
+    min-height: 750px;
+
+    .courses__img {
+        width: 600px;
+    }
+
+    .courses__texts {
+        max-width: 400px;
+    }
+
+    .courses__title--text {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .courses__desc--text {
+        color: $desc__text;
+        padding: 20px 0;
+    }
+
+    .chiziq-1 {
+        margin-top: 20px;
+    }
+}

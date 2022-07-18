@@ -1,0 +1,52 @@
+.hero__container {
+    background-image: url(/images/background.png);
+    width: 100%;
+    min-height: 790px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 60px;
+
+    .hero__texts {
+        max-width: 450px;
+        margin-top: 150px;
+
+        .hero__title--text {
+            text-transform: none;
+        }
+
+        .hero__desc--text {
+            text-transform: lowercase;
+            line-height: 1.7;
+            padding: 10px 0;
+            color: $desc__text;
+        }
+    }
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: $pink;
+    box-shadow: 5px 5px 2px $pink;
+    border: 1px solid $white;
+}
+
+.second {
+    margin-top: 30px;
+}
+
+.chiziq-1 {
+    height: 3px;
+    width: 160px;
+    margin-top: 10px;
+    background-color: $pink;
+}
+
+.chiziq-2 {
+    height: 3px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: $pink;
+}

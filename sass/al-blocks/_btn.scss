@@ -1,4 +1,27 @@
 .btn {
     margin: 0;
     padding: 0;
+    padding: 15px 30px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid $pink;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    a {
+        font-size: 18px;
+        font-weight: 500;
+        color: $pink;
+    }
+
+    &:hover {
+        background-color: $pink;
+        a {
+            color: $white;
+        }
+    }
+
+    &:active {
+        opacity: 0.5;
+    }
 }

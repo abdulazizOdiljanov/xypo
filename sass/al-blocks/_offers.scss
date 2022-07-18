@@ -1,0 +1,37 @@
+.offers {
+    align-items: center;
+}
+
+.offers__container {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    justify-content: space-between;
+    min-height: 720px;
+
+    .offers__img {
+        width: 800px;
+    }
+
+    .offers__texts {
+        max-width: 400px;
+        float: right;
+        text-align: right;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        div {
+            text-align: right;
+            display: inline-block;
+        }
+
+        
+
+
+    }
+
+    .offers__desc--text {
+        color: $desc__text;
+        padding: 30px 0;
+    }
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,61 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
     <!-- Header Start -->
     <header>
+        <div class="container header__container">
+            <div class="header__logo">
+                <img src="./images/logo.png" class="header__logo--img" />
+            </div>
+            <nav class="navbar">
+                <div class="background"></div>
+                <ul class="navbar__list">
+                    <!--  -->
+                    <li class="navbar__item">
+                        <a class="navbar__item--linc" href="#hero__section">
+                            home
+                        </a>
+                    </li>
+                    <!--  -->
+                    <li class="navbar__item">
+                        <a class="navbar__item--linc" href="#about__section">
+                            about us
+                        </a>
+                    </li>
+                    <!--  -->
+                    <li class="navbar__item">
+                        <a class="navbar__item--linc" href="#features__section">
+                            features
+                        </a>
+                    </li>
+                    <!--  -->
+                    <li class="navbar__item">
+                        <a class="navbar__item--linc" href="#courses">
+                            courses
+                        </a>
+                    </li>
+                    <!--  -->
+                    <li class="navbar__item">
+                        <a class="navbar__item--linc" href="#offers">
+                            offer
+                        </a>
+                    </li>
+                    <!--  -->
+                    <li class="navbar__item">
+                        <a class="navbar__item--linc" href="#contact">
+                            contact
+                        </a>
+                    </li>
 
+
+                    <li class="navbar__img">
+                        <img src="/images/menu.png" class="navbar__menu" />
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!-- Header End-->
 
@@ -18,16 +70,183 @@
 
     <!-- Main Start -->
     <main>
+        <section class="hero__section" id="hero__section">
+            <div class="container hero__container">
+                <div class="hero__texts">
+                    <h1 class="hero__title--text">The purpose is to teach bring learning to people</h1>
+                    <div class="square"></div>
+                    <p class="hero__desc--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                        fugiat possimus, nulla fugit placeat eligendi odit ea adipisci saepe voluptate quidem, dolores
+                        aspernatur molestias. Voluptatibus veniam molestiae quos qui praesentium!</p>
+                    <button class="btn"><a href="#">read more</a></button>
+                    <div class="square second"></div>
+                    <div class="chiziq-1"></div>
+                    <div class="chiziq-2"></div>
+                </div>
+            </div>
+        </section>
 
+        <section id="about__section" class="about__section">
+            <div class="container about__container">
+                <div class="about__img">
+                    <img src="./images/about.png" />
+                </div>
+                <div class="about__texts">
+                    <h1 class="about__title--text">about us</h1>
+                    <div class="square about__square"></div>
+                    <p class="about__desc--text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorum assumenda fuga
+                        distinctio cumque recusandae numquam deserunt tempora nostrum porro, id consectetur in.
+                        Perspiciatis blanditiis architecto vitae minima fuga exercitationem!
+                    </p>
+
+                    <div class="square about__square"></div>
+
+                    <h3 class="text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad
+                        tempora vitae consequuntur adipisci rerum. Commodi in minus sed eos, vitae ratione
+                        laboriosam tenetur dolores, repellat nostrum omnis ipsa. Provident?"</h3>
+                    <h2 class="name">----Abdulaziz odiljanov</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="features__section" id="features__section">
+            <div class="container features__container">
+                <div class="features__cards">
+                    <div class="card">
+                        <img src="./images/pic-1.png" />
+                        <h3 class="card__title--text">learn anywhere</h3>
+                        <p class="card__desc--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga,
+                            mollitia!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/pic-2.png" />
+                        <h3 class="card__title--text">expert teaches</h3>
+                        <p class="card__desc--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga,
+                            mollitia!</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/pic-3.png" />
+                        <h3 class="card__title--text">unlimited acces</h3>
+                        <p class="card__desc--text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga,
+                            mollitia!</p>
+                    </div>
+                </div>
+                <div class="features__btns">
+                    <div class="chiziqlar">
+
+                        <div class="circle"></div>
+                        <div class="chiziq-1"></div>
+                        <div class="chiziq-2"></div>
+                    </div>
+                    <button class="btn"><a href="" class="btn__linc">start free trial</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="courses" id="courses">
+            <div class="container courses__container">
+                <div class="courses__texts">
+                    <h2 class="courses__title--text">broswe our top courses</h2>
+                    <div class="square"></div>
+                    <p class="courses__desc--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non neque
+                        vero enim, modi aliquid distinctio labore qui quidem, asperiores ab libero assumenda doloribus!
+                        Eos nemo explicabo ullam quo neque nisi!</p>
+                    <div class="square"></div>
+                    <div class="chiziq-1"></div>
+                    <div class="chiziq-2"></div>
+                </div>
+                <img src="./images/course.png" class="courses__img">
+            </div>
+        </section>
+
+        <section class="offers" id="offers">
+            <div class="container offers__container">
+                <img src="./images/offer.png" class="offers__img" />
+                <div class="offers__texts">
+                    <h2 class="offers__title--text">limitless learning limitless possibilities</h2>
+                    <div class="square"></div>
+                    <p class="offers__desc--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+                        quasi deleniti quae! Praesentium numquam eaque ducimus, placeat hic quidem. Doloremque laborum
+                        velit qui sed ea mollitia asperiores tempore, eligendi perspiciatis, nulla dolorem.</p>
+                    <button class="btn"><a href="#" class="btn__linc">start my free month</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+
+            <div class="container contact__container">
+                <div class="contact__texts">
+                    <h2 class="contact__title--text">sign up to join our learning community</h2>
+                    <form action="#">
+                        <input type="text" placeholder="enter your name">
+                        <input type="text" placeholder="enter email">
+                        <input type="text" placeholder="enter password">
+                        <div class="btns">
+                            <button class="btn" type="submit"><a href="#" class="btn__linc">sign up</a></button>
+                            <button class="btn" type="submit"><a href="#" class="btn__linc">free trial</a></button>
+                        </div>
+
+                        <div class="square"></div>
+                        <div class="chiziq-1"></div>
+                        <div class="chiziq-2"></div>
+                    </form>
+                </div>
+                <img src="./images/contact.png" class="contact__img">
+            </div>
+        </section>
     </main>
     <!-- Main End-->
 
     <!--  -->
-    
+
     <!-- Footer Start -->
     <footer>
+        <div class="container">
+            <div class="chiziq"></div>
 
+            <div class="footer__container">
+                <div class="footer__texts">
+
+                    <div class="about">
+                        <h2 class="title--text">about us</h2>
+                        <a href="#">Request a Demo</a>
+                        <a href="#">FAQs</a>
+                    </div>
+
+                    <div class="product">
+                        <h2 class="title--text">product</h2>
+                        <a href="#">our plans</a>
+                        <a href="#">free trail</a>
+                    </div>
+
+                    <div class="support">
+                        <h2 class="title--text">support</h2>
+                        <a href="#">features</a>
+                        <a href="#">contact us</a>
+                    </div>
+
+                    <div class="explore">
+                        <h2 class="title--text">explore</h2>
+                        <a href="#">find a nonprofit</a>
+                        <a href="#">comporate solutions</a>
+                    </div>
+
+                </div>
+
+                <div class="footer__logo">
+                    <img src="./images/logo.png" class="footer__logo__img">
+                    <button class="btn">english</button>
+                </div>
+
+            </div>
+        </div>
     </footer>
     <!-- Footer End-->
+
 </body>
+
 </html>

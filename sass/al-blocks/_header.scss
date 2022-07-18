@@ -1,0 +1,17 @@
+header {
+    width: 100%;
+    position: fixed;
+}
+
+.header__container {
+    background-color: #eeeeeea3;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+    .header__logo--img {
+        width: 70px;
+    }
+}
